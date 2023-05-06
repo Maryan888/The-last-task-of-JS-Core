@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="time">
+      <div class="minute">01</div>:
+      <div class="second">00</div>
+    </div>
+    <div class="buttons">
+      <form name="form-buttons">
+        <input type="button" class="button start" value="Start game">
+        <input type="button" class="button check" value="Check result">
+        <input type="button" class="button new" value="New game" onclick="random()">
+      </form>
+
+    </div>
+    <div class="blocks">
+      <div class="left-block">
+        <div id="puzzles-left" class="puzzles ">
+          <div class="puzzle-left" id="left-piece-1"></div>
+          <div class="puzzle-left" id="left-piece-2"></div>
+          <div class="puzzle-left" id="left-piece-3"></div>
+          <div class="puzzle-left" id="left-piece-4"></div>
+          <div class="puzzle-left" id="left-piece-5"></div>
+          <div class="puzzle-left" id="left-piece-6"></div>
+          <div class="puzzle-left" id="left-piece-7"></div>
+          <div class="puzzle-left" id="left-piece-8"></div>
+          <div class="puzzle-left" id="left-piece-9"></div>
+          <div class="puzzle-left" id="left-piece-10"></div>
+          <div class="puzzle-left" id="left-piece-11"></div>
+          <div class="puzzle-left" id="left-piece-12"></div>
+          <div class="puzzle-left" id="left-piece-13"></div>
+          <div class="puzzle-left" id="left-piece-14"></div>
+          <div class="puzzle-left" id="left-piece-15"></div>
+          <div class="puzzle-left" id="left-piece-16"></div>
+        </div>
+
+      </div>
+      <div class="right-block">
+        <div id="puzzles-right" class="puzzles ">
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+          <div class="puzzle-right"></div>
+        </div>
+      </div>
+
+      <div class="modal-window">
+        <div class="modal-window_top">
+          <h2></h2>
+          <div class="small-time">
+            <div class="small-minute">01</div>:
+            <div class="small-second">00</div>
+          </div>
+        </div>
+
+        <div class="modal-window_buttons">
+          <button class="red-close">Close</button>
+          <button class="green-check">Check</button>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="script.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
